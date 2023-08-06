@@ -1,0 +1,58 @@
+#allTasks>div {
+    margin: 5px 0px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    border-top: 0.5px solid gray;
+}
+body {
+    overflow: auto;
+    font-family: Arial;
+}
+.wrapDelAndEditBtn {
+    display: flex;
+
+}
+
+.delete {
+    width: 4.5rem;
+    margin-right: 0.25rem;
+}
+.edit {
+    width: 3rem;
+}
+.edit,.delete{
+    color: #ffffff;
+    height: 2rem;
+    padding: 0;
+
+}
+.main {
+    width: 600px;
+    height: 100%;
+    border: 2px solid #febd68;
+    margin: 10px auto;
+}
+
+#heading {
+    width: 14rem;
+    margin: 10px auto;
+    font-weight: 900;
+}
+
+#addBtn{
+    color: white;
+}
+input {
+    border: 2px solid black;
+    height: 2.2rem;
+    width: 30rem;
+    margin-left: 20px;
+    border-radius: 0.3rem;
+    /* transition: border-color 0.1s; */
+}
+input:hover{
+    border-color: #febd68;
+}
